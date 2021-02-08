@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Didact+Gothic&family=Montserrat&family=Sacramento&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #222222
+
+
+}
+
+.wrapper{
+    width: 85%;
+    height: 80%;
+    background-color: #080705;
+    position: absolute;
+    box-shadow: 1px 2px 2px #080705, -1px -2px 4px #080705;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.wrapper .side-bar{
+    width: 20%;
+    height: 100%;
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    color: #F4F4F9;
+    
+}
+.side-bar .player-logo{
+    margin: 20px 0 40px 40px;
+    font-family:'montserrat',sans-serif;
+    font-weight: bold;
+}
+.side-bar .links{
+    margin:  0  50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+
+}
+.side-bar .links span{
+    margin-right:10px;
+    color: #F4F4F9;
+}
+.side-bar .links h5{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.side-bar .links a{
+    color: #F4F4F9;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.wrapper .main-bar{
+    width: 80%;
+    height: 100%;
+    background-color:#080705 ;
+}
+.main-bar-nav{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.main-bar-nav .main-link{
+    margin: 20px 0 10px 20px;
+    display: flex;
+
+}
+
+.main-link .main-links{
+    color: #F4F4F9;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.main-bar-nav .search-bar input{
+    background-color:#222222;
+    padding: 8px 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    position: relative;
+
+}
+
+.search-bar i{
+    position: relative;
+    color: #F4F4F9;
+    right: 30px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+input::placeholder{
+    font-family: 'montserrat',sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.main-bar-nav .icon-link{
+    color:#F4F4F9;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.main-bar-nav .icon-link .icon-links{
+    margin-right: 20px;
+}
+
+.nusic-div{
+    display: flex;
+
+}
+.music-side-bar{
+    width: 70%;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.music-side-bar .trending-div{
+    color: #F4F4F9;
+    margin: 40px 0 20px 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+   
+}
+.music-side-bar .trending-div h1{
+        font-family: 'monserrat',sans-serif;
+        text-transform: capitalize;
+        font-weight: lighter;
+
+
+}
+.trending-div .btn{
+    width: 100px;
+    padding: 11px 15px;
+    background-color: #76BED0;
+    color: #F4F4F9;
+    border: none;
+    outline: none;
+    text-align: left;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.trending-div .btn i{
+    margin-left: 5px;
+}
+
+.music-player{
+    width: 30%;
+}
